@@ -1,0 +1,74 @@
+.location-full {
+  width: 100%;
+  height: 100vh;
+}
+
+.location-des {
+  width: 100vw;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+.location-des > div {
+  margin-top: 50px;
+  width: 40%;
+  height: fit-content;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+.contact-location {
+  margin-top: 20px;
+  width: 220px;
+  height: 45px;
+  background-color: #fff;
+  border: 1px solid #333;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.map-location {
+  width: 100vw;
+  height: 60%;
+}
+
+.black-line-loc {
+  width: 100vw;
+  height: 10%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+}
+.black-line-loc > i {
+  margin-left: 30px;
+  color: #ffffff;
+}
+
+.black-line-loc > h2 {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.map {
+  background: url(../../imgs/nyc3gray.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  width: 100%;
+  height: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .location-des > div {
+    width: 60%;
+    margin-bottom: 15px;
+  }
+}
