@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "webpack": "webpack --mode=development --watch"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +49,8 @@
   "bugs": {
     "url": "https://github.com/mkcriollo/moderno/issues"
   },
-  "homepage": "https://github.com/mkcriollo/moderno#readme"
+  "homepage": "https://github.com/mkcriollo/moderno#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
+  }
 }
